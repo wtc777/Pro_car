@@ -1,2 +1,5 @@
 # Pro_car
 树莓派智能小车
+server代码：使用python语言编写与客户端建立基于Tcp协议的socket连接。运行与树莓派上。
+QT_client QT编写的客户端控制程序。运行与Windows系统
+wchat_client 使用微信开发者工具编写的客户端控制程序，运行与手机微信小程序上。

@@ -1,0 +1,42 @@
+<!--index.wxml-->
+  <text class ='text_style'>树莓派客户端</text>
+  <button class='con_style'  style="opacity:{{opacityCon}}" bindtap="connectPi">{{connectText}}</button>  
+<view class = "redPos">
+  <button class='red_style'  style="opacity:{{opacityRed}}" bindtap="RedLed">{{RedText}}</button>
+</view>
+<view class = "greenPos">  
+  <button class='green_style'  style="opacity:{{opacityGreen}}" bindtap="GreenLed">{{GreenText}}</button>
+</view>
+<view class = "bluePos">  
+  <button class='blue_style'  style="opacity:{{opacityBlue}}" bindtap="BlueLed">{{BlueText}}</button>
+</view>
+<view class = "beepPos">  
+  <button class='beep_style'  style="opacity:{{opacityBeep}}" bindtap="Beep">{{BeepText}}</button>
+</view>
+<view class = "ForwardPbPos">  
+  <button class='CarPb_style'  style="opacity:{{opacityForward}}" bind:touchstart="Forward" bind:touchend="StopCar">{{ForwardText}}</button>
+</view>
+<view class = "BackPbPos">  
+  <button class='CarPb_style'  style="opacity:{{opacityBack}}" bind:touchstart="Back" bind:touchend="StopCar">{{BackText}}</button>
+</view>
+<view class = "RightPbPos">  
+  <button class='CarPb_style'  style="opacity:{{opacityRight}}" bind:touchstart="Right" bind:touchend="StopCar">{{RightText}}</button>
+</view>
+<view class = "LeftPbPos">  
+  <button class='CarPb_style'  style="opacity:{{opacityLeft}}" bind:touchstart="Left" bind:touchend="StopCar">{{LeftText}}</button>
+</view>
+<view class = "MaxspeedPbPos">  
+  <button class='CarPb_style2'  style="opacity:{{opacityMaxspeed}}" bindtap="Maxspeed">{{MaxspeedText}}</button>
+</view>
+<view class = "MidspeedPbPos">  
+  <button class='CarPb_style3'  style="opacity:{{opacityMidspeed}}" bindtap="Midspeed">{{MidspeedText}}</button>
+</view>
+<view class = "MinspeedPbPos">  
+  <button class='CarPb_style'  style="opacity:{{opacityMinspeed}}" bindtap="Minspeed">{{MinspeedText}}</button>
+</view>
+<view class = "ModePbPos">  
+  <button class='CarPb_style'  style="opacity:{{opacityMode}}" bindtap="SetMode">{{ModeText}}</button>
+</view>
+<view class = "TracePbPos">  
+  <button class='CarPb_style4'  style="opacity:{{opacityTrace}}" bindtap="Trace">{{TraceText}}</button>
+</view>

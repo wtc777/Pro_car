@@ -1,0 +1,181 @@
+/**index.wxss**/
+.text_style{
+  color:green;
+  font-size:40px;
+  padding: 40px;/*设置文本局部对齐*/
+}
+.con_style{
+  /*将按钮设置为圆形*/
+  margin-top:0px;
+  /*设置最大高度=最大宽度=最小宽度=最小高度---正方形*/
+  max-height: 200rpx;
+  max-width: 200rpx;
+  min-height: 200rpx;
+  min-width: 200rpx;
+  border-radius: 50%;/*圆角设置大于50才是圆弧(50-100)*/
+  background: green;/*背景颜色*/
+  color: white;/*字体颜色*/
+  line-height: 200rpx;/*和按钮高度一致，文字垂直居中放置*/
+  padding:0rpx;/*设置字体水平居中放置*/
+  font-size: 60rpx;/*设置字体大小*/
+}
+/*设置红色按钮的相对位置坐标*/
+.redPos{
+  margin-top:-20px;/*离顶部偏移量*/
+  margin-left: -200px;/*离左边偏移量*/
+}
+/*设置红色按钮的样式参数*/
+.red_style{
+  max-height: 160rpx;
+  max-width: 160rpx;
+  min-height: 160rpx;
+  min-width: 160rpx;
+  border-radius: 50%;
+  background: red;
+  color: white;
+  line-height: 160rpx;/*和按钮高度一致，文字居中放置*/
+  padding:0rpx;
+  font-size: 45rpx;/*设置字体大小*/
+}
+.greenPos{
+  margin-top:-20px;
+  margin-left: -80px;
+}
+.green_style{
+  max-height: 160rpx;
+  max-width: 160rpx;
+  min-height: 160rpx;
+  min-width: 160rpx;
+  border-radius: 50%;
+  background: green;
+  color: white;
+  line-height: 160rpx;/*和按钮高度一致，文字居中放置*/
+  padding:0rpx;
+  font-size: 45rpx;/*设置字体大小*/
+}
+.bluePos{
+  margin-top:-60px;
+  margin-left: 80px;
+}
+.blue_style{
+  max-height: 160rpx;
+  max-width: 160rpx;
+  min-height: 160rpx;
+  min-width: 160rpx;
+  border-radius: 50%;
+  background: blue;
+  color: white;
+  line-height: 160rpx;/*和按钮高度一致，文字居中放置*/
+  padding:0rpx;
+  font-size: 45rpx;/*设置字体大小*/
+}
+.beepPos{
+  margin-top:-140px;
+  margin-left: 200px;
+}
+.beep_style{
+  max-height: 160rpx;
+  max-width: 160rpx;
+  min-height: 160rpx;
+  min-width: 160rpx;
+  border-radius: 50%;
+  background: grey;
+  color: white; 
+  line-height: 160rpx;/*和按钮高度一致，文字居中放置*/
+  padding:0rpx;
+  font-size: 45rpx;/*设置字体大小*/
+}
+/*设置控制小车马达的按钮相对位置和样式*/
+/*小车前进按钮坐标*/
+.ForwardPbPos{
+  margin-top:120px;
+  margin-left: -75px;
+}
+/*小车后退按钮坐标*/
+.BackPbPos{
+  margin-top:60px;
+  margin-left: -75px;
+}
+/*小车右转按钮坐标*/
+.RightPbPos{
+  margin-top:-90px;
+  margin-left: 60px;
+}
+/*小车左转按钮坐标*/
+.LeftPbPos{
+  margin-top:-38px;
+  margin-left: -200px;
+}
+/*小车高速按钮坐标*/
+.MaxspeedPbPos{
+  margin-top:65px;
+  margin-left: 200px;
+}
+/*小车中速按钮坐标*/
+.MidspeedPbPos{
+  margin-top:-38px;
+  margin-left: 0px;
+}
+/*小车低速按钮坐标*/
+.MinspeedPbPos{
+  margin-top:-38px;
+  margin-left: -200px;
+}
+/*手自动按钮坐标*/
+.ModePbPos{
+  margin-top: -230px;
+  margin-left: -200px;
+}
+/*寻迹切换按钮坐标*/
+.TracePbPos{
+  margin-top:-38px;
+  margin-left: 20px;
+}
+.CarPb_style{
+  max-height: 90rpx;
+  max-width: 200rpx;
+  min-height: 90rpx;
+  min-width: 200rpx;
+  border-radius: 15%;
+  background: green;
+  color: white; 
+  line-height: 90rpx;/*和按钮高度一致，文字居中放置*/
+  padding:0rpx;
+  font-size: 45rpx;/*设置字体大小*/
+}
+.CarPb_style2{
+  max-height: 90rpx;
+  max-width: 200rpx;
+  min-height: 90rpx;
+  min-width: 200rpx;
+  border-radius: 15%;
+  background: red;
+  color: white; 
+  line-height: 90rpx;/*和按钮高度一致，文字居中放置*/
+  padding:0rpx;
+  font-size: 45rpx;/*设置字体大小*/
+}
+.CarPb_style3{
+  max-height: 90rpx;
+  max-width: 200rpx;
+  min-height: 90rpx;
+  min-width: 200rpx;
+  border-radius: 15%;
+  background: blue;
+  color: white; 
+  line-height: 90rpx;/*和按钮高度一致，文字居中放置*/
+  padding:0rpx;
+  font-size: 45rpx;/*设置字体大小*/
+}
+.CarPb_style4{
+  max-height: 90rpx;
+  max-width: 200rpx;
+  min-height: 90rpx;
+  min-width: 200rpx;
+  border-radius: 15%;
+  background: violet;
+  color: white; 
+  line-height: 90rpx;/*和按钮高度一致，文字居中放置*/
+  padding:0rpx;
+  font-size: 45rpx;/*设置字体大小*/
+}
